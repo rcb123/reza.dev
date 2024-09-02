@@ -64,7 +64,7 @@
 	</section>
 	<section class="flex flex-col border-t border-cloudGray/50 px-6 md:px-8 lg:px-10 pt-4">
 		<h1 class="text-lg text-cloudGray tracking-wider uppercase">Work</h1>
-		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 py-8">
+		<div class="container columns-1 sm:columns-2 lg:columns-3 gap-4 py-8">
 			<ProjectCard
 				company="PennyMac"
 				year="2024"

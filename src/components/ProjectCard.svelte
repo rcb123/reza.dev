@@ -5,7 +5,7 @@
 	export let link = '';
 </script>
 
-<div class="flex flex-col gap-4 w-full h-fit">
+<div class="flex flex-col gap-4 w-full h-fit break-inside-avoid-column">
 	{#if link}
 		<a href={link} target="_blank">
 			<div
