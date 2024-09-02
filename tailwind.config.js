@@ -2,7 +2,11 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			colors: {
+				cloudGray: 'oklch(var(--color-cloudGray) / <alpha-value>)'
+			}
+		}
 	},
 	plugins: []
 };
