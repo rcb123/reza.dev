@@ -119,7 +119,7 @@
 					<source srcset={sveltype_1024} media="(min-width: 1024px)" />
 					<source srcset={sveltype_768} media="(min-width: 800px)" />
 					<source srcset={sveltype_512} media="(min-width: 640px)" />
-					<source srcset={sveltype_768} media="(min-width: 256px)" />
+					<source srcset={sveltype_768} media="(min-width: 338px)" />
 					<img src={sveltype_256} alt="Sveltype logo" class="w-full h-full object-contain" />
 				</picture>
 			</ProjectCard>
