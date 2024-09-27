@@ -7,7 +7,7 @@
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
 	box-sizing: border-box;
-	font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 @layer base {
@@ -15,23 +15,23 @@
 		--color-cloudGray: 72% 0.01 257;
 	}
 	@font-face {
-		font-family: 'Open Sans';
+		font-family: 'Inter';
 		font-style: normal;
 		font-weight: 100 900;
 		font-display: swap;
 		src:
 			local(''),
-			url('/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+			url('/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
 	}
 
 	@font-face {
-		font-family: 'Open Sans';
+		font-family: 'Inter';
 		font-style: italic;
 		font-weight: 100 900;
 		font-display: swap;
 		src:
 			local(''),
-			url('/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+			url('/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
 	}
 }
 
