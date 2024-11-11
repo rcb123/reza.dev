@@ -19,6 +19,11 @@
 	import sveltype_768 from '../assets/images/sveltype/sveltype_768.webp';
 	import sveltype_1024 from '../assets/images/sveltype/sveltype_1024.webp';
 
+	import media_converter_256 from '../assets/images/media_converter/media_converter_256.webp';
+	import media_converter_512 from '../assets/images/media_converter/media_converter_512.webp';
+	import media_converter_768 from '../assets/images/media_converter/media_converter_768.webp';
+	import media_converter_1024 from '../assets/images/media_converter/media_converter_1024.webp';
+
 	import ProjectCard from '../components/ProjectCard.svelte';
 </script>
 
@@ -79,7 +84,7 @@
 				company="Rapideye"
 				year="2024"
 				role="Lead Software Engineer (Intern)"
-				link="https://introductiontolearning.rapideye.ai/"
+				link="https://www.rapideye.ai/"
 			>
 				<picture>
 					<img src={rapideye} alt="Rapideye logo" class="w-full h-full object-contain" />
@@ -120,7 +125,29 @@
 					<source srcset={sveltype_768} media="(min-width: 800px)" />
 					<source srcset={sveltype_512} media="(min-width: 640px)" />
 					<source srcset={sveltype_768} media="(min-width: 338px)" />
-					<img src={sveltype_256} alt="Sveltype logo" class="w-full h-full object-contain" />
+					<img
+						src={sveltype_256}
+						alt="Sveltype logo"
+						class="w-full h-full rounded-md object-contain"
+					/>
+				</picture>
+			</ProjectCard>
+			<ProjectCard
+				company="Media Converter"
+				year="2024"
+				role="Personal Project"
+				link="https://convert-media.vercel.app/"
+			>
+				<picture>
+					<source srcset={media_converter_1024} media="(min-width: 1024px)" />
+					<source srcset={media_converter_768} media="(min-width: 800px)" />
+					<source srcset={media_converter_512} media="(min-width: 640px)" />
+					<source srcset={media_converter_768} media="(min-width: 338px)" />
+					<img
+						src={media_converter_256}
+						alt="Media Converter logo"
+						class="w-full h-full rounded-md object-contain"
+					/>
 				</picture>
 			</ProjectCard>
 		</div>
