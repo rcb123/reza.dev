@@ -3,6 +3,8 @@
 	import profile_picture_medres from '../assets/images/profile_pic/profile_pic_medres.webp';
 	import profile_picture_hires from '../assets/images/profile_pic/profile_pic_hires.webp';
 
+	import roblox from '../assets/images/roblox/roblox.svg';
+
 	import pennymac from '../assets/images/pennymac/pennymac.svg';
 
 	import rapideye from '../assets/images/rapideye/rapideye.svg';
@@ -43,7 +45,7 @@
 					/>
 				</picture>
 			</div>
-			<a
+			<!-- <a
 				href="mailto:rbanankhah@gmail.com"
 				class="flex items-center justify-between space-x-2 group"
 			>
@@ -53,7 +55,7 @@
 				>
 					Available for internship
 				</div>
-			</a>
+			</a> -->
 		</div>
 		<div class="flex flex-col gap-2 md:gap-4">
 			<h1 class="text-2xl text-black sm:text-3xl md:text-4xl lg:text-5xl">Hi I'm Reza Banankhah</h1>
@@ -70,6 +72,16 @@
 	<section class="flex flex-col border-t border-cloudGray/50 px-6 md:px-8 lg:px-10 pt-4">
 		<h1 class="text-lg text-cloudGray tracking-wider uppercase">Work</h1>
 		<div class="container columns-1 sm:columns-2 lg:columns-3 gap-4 py-8">
+			<ProjectCard
+				company="Roblox"
+				year="2025"
+				role="Software Engineer, Creator Analytics"
+				link="https://corp.roblox.com/"
+			>
+				<picture>
+					<img src={roblox} alt="Roblox logo" class="w-full h-full object-contain" />
+				</picture>
+			</ProjectCard>
 			<ProjectCard
 				company="PennyMac"
 				year="2024"
