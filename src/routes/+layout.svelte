@@ -2,6 +2,7 @@
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 	import { inject } from '@vercel/analytics';
 	import { dev } from '$app/environment';
+	import { resolve } from '$app/paths';
 	import '../app.css';
 
 	inject({ mode: dev ? 'development' : 'production' });
@@ -13,10 +14,11 @@
 		class="md:fixed flex flex-row flex-none md:flex-col bg-white max-md:justify-between md:min-h-screen pt-4 pb-4 md:pt-10 md:pb-0 border-b md:border-r border-cloudGray/50 select-none"
 	>
 		<section class="flex flex-row md:flex-col px-5 lg:px-8 md:pb-8 font-semibold">
-			<a href="/">
+			<a href={resolve('/')}>
 				<h1
 					class="text-xl sm:text-2xl hover:underline transition-all inline md:block md:whitespace-pre-line"
 				>
+					<!-- eslint-disable-next-line svelte/no-useless-mustaches -->
 					{'Reza\nBanankhah'}
 				</h1>
 			</a>
@@ -28,8 +30,8 @@
 			<nav
 				class="flex flex-row md:flex-col gap-4 md:gap-1 text-lg sm:text-xl md:text-sm font-medium"
 			>
-				<a class="hover:text-black/60 transition-colors" href="/">Home</a>
-				<a class="hover:text-black/60 transition-colors" href="/resume">Resume</a>
+				<a class="hover:text-black/60 transition-colors" href={resolve('/')}>Home</a>
+				<a class="hover:text-black/60 transition-colors" href={resolve('/resume')}>Resume</a>
 			</nav>
 		</section>
 		<section
