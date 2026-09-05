@@ -7,6 +7,7 @@
 
 <div class="flex flex-col gap-4 w-full h-fit break-inside-avoid-column">
 	{#if link}
+		<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 		<a href={link} target="_blank">
 			<div
 				class="work-card flex items-center justify-center w-full p-4 min-h-48 bg-gradient-to-b from-cloudGray/10 via-white to-cloudGray/20 shadow-md shadow-cloudGray/20 rounded-md border border-cloudGray/30 hover:border-cloudGray/50"

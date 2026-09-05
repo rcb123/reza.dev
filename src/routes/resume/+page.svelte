@@ -3,4 +3,4 @@
 	title="Resume"
 	allow="autoplay"
 	class="bg-[#D1D1D1] min-h-screen"
-/>
+></iframe>

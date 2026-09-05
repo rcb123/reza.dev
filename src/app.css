@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+	--color-cloudGray: oklch(72% 0.01 257 / <alpha-value>);
+}
 
 * {
 	-webkit-font-smoothing: antialiased;
@@ -11,9 +13,6 @@
 }
 
 @layer base {
-	:root {
-		--color-cloudGray: 72% 0.01 257;
-	}
 	@font-face {
 		font-family: 'Inter';
 		font-style: normal;
