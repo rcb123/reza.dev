@@ -3,8 +3,8 @@
 	"version": "0.0.1",
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
-		"@sveltejs/adapter-static": "^3.0.11",
-		"@sveltejs/kit": "^2.70.4",
+		"@sveltejs/adapter-static": "^4.0.1",
+		"@sveltejs/kit": "^3.1.1",
 		"@sveltejs/vite-plugin-svelte": "^7.3.1",
 		"@tailwindcss/vite": "^4.3.4",
 		"@types/eslint": "^9.6.1",
@@ -43,9 +43,12 @@
 	],
 	"overrides": {
 		"brace-expansion": "5.0.12",
-		"devalue": "5.9.3",
-		"cookie": "0.7.0",
+		"devalue": "5.9.4",
+		"cookie": "2.0.2",
 		"minimatch": "11.0.1",
-		"source-map-js": "1.2.2"
+		"source-map-js": "1.2.2",
+		"@vercel/analytics": {
+			"@sveltejs/kit": "$@sveltejs/kit"
+		}
 	}
 }
