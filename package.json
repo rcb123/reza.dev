@@ -3,26 +3,25 @@
 	"version": "0.0.1",
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
-		"@sveltejs/adapter-auto": "^7.0.1",
-		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/kit": "^2.70.3",
-		"@sveltejs/vite-plugin-svelte": "^7.3.0",
-		"@tailwindcss/vite": "^4.3.3",
+		"@sveltejs/adapter-static": "^3.0.11",
+		"@sveltejs/kit": "^2.70.4",
+		"@sveltejs/vite-plugin-svelte": "^7.3.1",
+		"@tailwindcss/vite": "^4.3.4",
 		"@types/eslint": "^9.6.1",
-		"autoprefixer": "^10.5.5",
-		"eslint": "^10.10.0",
+		"autoprefixer": "^10.6.2",
+		"eslint": "^10.14.0",
 		"eslint-config-prettier": "^10.1.8",
-		"eslint-plugin-svelte": "^3.23.0",
-		"globals": "^17.12.0",
-		"postcss": "^8.5.28",
-		"prettier": "^3.9.6",
+		"eslint-plugin-svelte": "^3.24.0",
+		"globals": "^17.14.0",
+		"postcss": "^8.5.32",
+		"prettier": "^3.9.10",
 		"prettier-plugin-svelte": "^4.1.1",
-		"svelte": "^5.57.0",
-		"svelte-check": "^4.7.6",
-		"tailwindcss": "^4.3.3",
+		"svelte": "^5.57.3",
+		"svelte-check": "^4.7.8",
+		"tailwindcss": "^4.3.4",
 		"typescript": "^6.0.3",
-		"typescript-eslint": "^8.69.0",
-		"vite": "^8.2.2"
+		"typescript-eslint": "^8.72.1",
+		"vite": "^8.3.6"
 	},
 	"private": true,
 	"scripts": {
@@ -37,10 +36,16 @@
 	"type": "module",
 	"dependencies": {
 		"@vercel/analytics": "^2.0.1",
-		"@vercel/speed-insights": "^2.0.0",
-		"caniuse-lite": "^1.0.30001810"
+		"@vercel/speed-insights": "^2.1.0"
 	},
 	"trustedDependencies": [
 		"@vercel/speed-insights"
-	]
+	],
+	"overrides": {
+		"brace-expansion": "5.0.12",
+		"devalue": "5.9.3",
+		"cookie": "0.7.0",
+		"minimatch": "11.0.1",
+		"source-map-js": "1.2.2"
+	}
 }
